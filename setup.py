@@ -8,7 +8,7 @@ Copyright (c) 2013 Keybase
 setup.py - build and package info
 """
 
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 from glob import glob
 
 salsa20_module = Extension('_salsa20',
